@@ -34,6 +34,8 @@ hacked-together but still on-theme look for the pirating site.
 Overall, I had a really fun time putting this app together!
 
 ![Screenshot_1](screen-1.png)
+![Screenshot_2](screen-2.png)
+
 
 ## Building and Running
 
