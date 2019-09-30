@@ -33,6 +33,8 @@ hacked-together but still on-theme look for the pirating site.
 
 Overall, I had a really fun time putting this app together!
 
+![Screenshot_1](screen-1.png)
+
 ## Building and Running
 
 To build this project, `cd` into the click-time-question-2 directory and run `npm install`.
