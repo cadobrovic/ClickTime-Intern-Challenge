@@ -1,0 +1,120 @@
+.cart-entry-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 2rem;
+    margin-left: 10%;
+    margin-right: 5%;
+    
+}
+
+.movie-item {
+    padding: 10px 1px 10px 5px;
+    width: 100%;
+    position: relative;
+}
+
+.totals {
+    width: 35%;
+    text-align: center;
+    padding-right: 5%;
+}
+
+
+.entry-image {
+    margin-left: 10px;
+}
+
+
+.pic-and-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.title-and-format {
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+
+.movie-title {
+    text-align: left;
+    margin: 5px 5px 5px 5px;
+}
+
+.movie-format {
+    text-align: left;
+    margin: 5px 5px 5px 5px;
+}
+
+p.quantity-label {
+    margin-right: 5px;
+}
+
+.quantity-box {
+    position: absolute;
+    margin: 5px 5px 5px 5px;
+    bottom: 0;
+    right: 115px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.remove-box {
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+}
+
+h3 {
+    color: rgb(252, 248, 58);
+}
+
+.remove-button {
+    
+    background: #ff6c3f;
+    background-image: linear-gradient(to bottom, #d93434, #74182f);
+    border-radius: 6px;
+    box-shadow: 0px 1px 3px #666666;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 15px;
+    padding: 5px 10px 5px 10px;
+    /* border: solid #bbc4c7 4px; */
+    text-decoration: none;
+  }
+  
+  .remove-button:hover {
+    background: #a01e45;
+    background-image: linear-gradient(to bottom, #611e80, #fa2f28);
+    text-decoration: none;
+  }
+
+.quantity-button {
+    background: #ff6c3f;
+    height: 30px;
+    margin: 13px 5px 5px 5px;
+    background-image: linear-gradient(to bottom, #797777, #4f8580);
+    border-radius: 6px;
+    box-shadow: 0px 1px 3px #666666;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 15px;
+    padding: 5px 10px 5px 10px;
+    /* border: solid #bbc4c7 4px; */
+    text-decoration: none;
+}
+
+.quantity-count {
+    box-shadow: 0px 1px 3px #666666;
+    font-family: Arial;
+    color: #e4ee55;
+    font-size: 15px;
+    padding: 5px 10px 5px 10px;
+    /* border: solid #bbc4c7 4px; */
+    text-decoration: none;
+}

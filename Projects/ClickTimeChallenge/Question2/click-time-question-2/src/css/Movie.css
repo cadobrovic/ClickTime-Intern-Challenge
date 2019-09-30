@@ -1,0 +1,56 @@
+.movie-container {
+    /* width: 100%;
+    margin: 10;
+    padding: 10px;
+    border-width: 10px;
+    border-color: black; */
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.movie-info {
+    padding: 5;
+    margin-left: 25px;
+}
+
+.cart-button {
+    margin-top: 50px;
+    background: #34d95a;
+    background-image: linear-gradient(to bottom, #34d95a, #2bb847);
+    border-radius: 6px;
+    box-shadow: 0px 1px 3px #666666;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 14px;
+    padding: 10px 20px 10px 20px;
+    border: solid #bbc4c7 4px;
+    text-decoration: none;
+}
+
+.cart-button:hover {
+    background: #db1c1c;
+    background-image: linear-gradient(to bottom, #db1c1c, #ed131e);
+    text-decoration: none;
+}
+
+.cart-button:disabled {
+    background: #8b8b8b;
+    border: none;
+}
+
+
+
+img {
+    display: block;
+    width: 20%;
+    margin-left: 100px;
+    box-shadow: 4px 4px blue;
+
+}
+
+h2, p {
+    color: rgb(229, 255, 0);
+}
