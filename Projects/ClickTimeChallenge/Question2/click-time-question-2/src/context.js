@@ -48,7 +48,7 @@ class MovieProvider extends Component {
             incomingMovies = [...incomingMovies, movie];
         });
         this.setState({
-            movies: incomingMovies
+            movies: incomingMovies,
         });
     }
 
@@ -209,7 +209,7 @@ class MovieProvider extends Component {
                 bluRayDiscount: bluRayDiscount,
             }
         }, () => {
-            this.computeTotals();
+            this.updateDiscounts();
         })
     }
 
